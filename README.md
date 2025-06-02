@@ -41,3 +41,6 @@ gradle init --type pom
 gradle clean build
 java -jar build/libs/MVNGRDLDEMO-1.0-SNAPSHOT.jar
 
+wget https://get.jenkins.io/war/latest/jenkins.war
+java -jar jenkins.war --httpPort=8080
+http://localhost:8080
