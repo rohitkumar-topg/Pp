@@ -41,6 +41,14 @@ gradle init --type pom
 gradle clean build
 java -jar build/libs/MVNGRDLDEMO-1.0-SNAPSHOT.jar
 
+5.
 wget https://get.jenkins.io/war/latest/jenkins.war
 java -jar jenkins.war --httpPort=8080
 http://localhost:8080
+
+create exp2 
+open jenkins 
+create free style
+sel bash
+command: cd
+mvn test
