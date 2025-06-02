@@ -18,7 +18,7 @@ Create docs folder
 git add docs/*
 G commit -m ""
 G push origin master
-java -jar target copy path
+java -jar target/copy path
 G Settings page source branch folder save
 
 3. gradle run
@@ -35,4 +35,9 @@ Maven archetype quickstart
 Maven plugin
 Maven clean compile
 mvn package
-java -java target\ -jar
+java -jar target/ ..-jar
+
+gradle init --type pom
+gradle clean build
+java -jar build/libs/MVNGRDLDEMO-1.0-SNAPSHOT.jar
+
